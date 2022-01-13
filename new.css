@@ -13,7 +13,7 @@ h2{
     font-size: 30px;
     font-weight: 700;
 }
-section{
+.flexible-div{
     display: flex;
     
 }.dark-side{
@@ -46,4 +46,32 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.full-stack{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px gainsboro;
+    
+    border-radius: 5%;
+    
+}
+.experiance{
+    margin-bottom: 100px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#deb{
+    border-left: 10px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 2;
+}
+#bab{
+    border-left: 10px solid;
+    border-image: linear-gradient(orangered,salmon);
+    border-image-slice: 2;
+}
+footer p{
+    text-align: center;
 }
