@@ -11,7 +11,7 @@ h2{
 .small{
     color: orangered;
 }
-section{
+.flexible-sec{
     display: flex;
 }
 .anchor{
@@ -26,6 +26,12 @@ section{
 .div-hpa{
     width: 50%;
     padding-left: 2%;
+    border-left: 20px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 2%;
+    box-shadow: 10px 10px 50px greenyellow;
+    border-radius: 5%;
+    margin-left: 5%;
     
 }
 .div-hpa img{
@@ -35,7 +41,8 @@ section{
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
+    margin-top: 50px;
     
 }
 .justify{
@@ -48,4 +55,30 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.full-stack{
+    width: 40%;
+    margin-left: 5%;
+    box-shadow: 10px 10px 50px greenyellow;
+    padding: 2%;
+    border-radius: 5%;
+}
+#dev{
+    border-left: 20px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 2%;
+}
+#web{
+    border-left: 20px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 2%;
+}
+.exp{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-bottom: 60px;
+}
+footer p{
+    text-align: center;
 }
