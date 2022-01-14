@@ -1,0 +1,64 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.flexible{
+    display: flex;
+}
+.world-no{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+    
+}
+h1{
+    font-size: 50px;
+}
+.world{
+    color: orangered;
+}
+.don-no{
+    width: 40%;
+    margin-left: 20px;
+}
+.don-no img{
+    width: 80%;    
+}
+.justify{
+    text-align: justify;
+    
+}
+.target{
+    background-color: orangered;
+    text-decoration: none;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+.back{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.full{
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+}
+.exp{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-bottom: 100px;
+}
+#dev{
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 2;
+    border-left: 10px solid
+}
+.just{
+    text-align: center;
+}
